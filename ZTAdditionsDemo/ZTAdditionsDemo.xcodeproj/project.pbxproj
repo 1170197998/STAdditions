@@ -13,12 +13,13 @@
 		9A9F01521E31FA1C00CFE626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F01501E31FA1C00CFE626 /* Main.storyboard */; };
 		9A9F01541E31FA1C00CFE626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F01531E31FA1C00CFE626 /* Assets.xcassets */; };
 		9A9F01571E31FA1C00CFE626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A9F01551E31FA1C00CFE626 /* LaunchScreen.storyboard */; };
-		9A9F016B1E31FA2A00CFE626 /* NSString+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F01601E31FA2A00CFE626 /* NSString+ZTAddition.m */; };
-		9A9F016C1E31FA2A00CFE626 /* UIButton+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F01621E31FA2A00CFE626 /* UIButton+ZTAddition.m */; };
-		9A9F016D1E31FA2A00CFE626 /* UIColor+ZTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F01641E31FA2A00CFE626 /* UIColor+ZTAdditions.m */; };
-		9A9F016F1E31FA2A00CFE626 /* UILabel+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F01681E31FA2A00CFE626 /* UILabel+ZTAddition.m */; };
-		9A9F01701E31FA2A00CFE626 /* UIView+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F016A1E31FA2A00CFE626 /* UIView+ZTAddition.m */; };
-		9A9F01731E31FA4F00CFE626 /* UIImageView+ZTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9F01721E31FA4F00CFE626 /* UIImageView+ZTAdditions.m */; };
+		9AF63EBB1E4C68C900242DF8 /* NSString+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EAE1E4C68C900242DF8 /* NSString+ZTAddition.m */; };
+		9AF63EBC1E4C68C900242DF8 /* UIButton+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EB11E4C68C900242DF8 /* UIButton+ZTAddition.m */; };
+		9AF63EBD1E4C68C900242DF8 /* UIColor+ZTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EB31E4C68C900242DF8 /* UIColor+ZTAdditions.m */; };
+		9AF63EBE1E4C68C900242DF8 /* UIImageView+ZTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EB51E4C68C900242DF8 /* UIImageView+ZTAdditions.m */; };
+		9AF63EBF1E4C68C900242DF8 /* UILabel+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EB71E4C68C900242DF8 /* UILabel+ZTAddition.m */; };
+		9AF63EC01E4C68C900242DF8 /* UIView+ZTAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EB91E4C68C900242DF8 /* UIView+ZTAddition.m */; };
+		9AF63EC41E4C696400242DF8 /* FileUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63EC31E4C696400242DF8 /* FileUnit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,19 +33,22 @@
 		9A9F01531E31FA1C00CFE626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A9F01561E31FA1C00CFE626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A9F01581E31FA1C00CFE626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A9F015F1E31FA2A00CFE626 /* NSString+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZTAddition.h"; sourceTree = "<group>"; };
-		9A9F01601E31FA2A00CFE626 /* NSString+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZTAddition.m"; sourceTree = "<group>"; };
-		9A9F01611E31FA2A00CFE626 /* UIButton+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZTAddition.h"; sourceTree = "<group>"; };
-		9A9F01621E31FA2A00CFE626 /* UIButton+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZTAddition.m"; sourceTree = "<group>"; };
-		9A9F01631E31FA2A00CFE626 /* UIColor+ZTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZTAdditions.h"; sourceTree = "<group>"; };
-		9A9F01641E31FA2A00CFE626 /* UIColor+ZTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZTAdditions.m"; sourceTree = "<group>"; };
-		9A9F01671E31FA2A00CFE626 /* UILabel+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZTAddition.h"; sourceTree = "<group>"; };
-		9A9F01681E31FA2A00CFE626 /* UILabel+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZTAddition.m"; sourceTree = "<group>"; };
-		9A9F01691E31FA2A00CFE626 /* UIView+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZTAddition.h"; sourceTree = "<group>"; };
-		9A9F016A1E31FA2A00CFE626 /* UIView+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZTAddition.m"; sourceTree = "<group>"; };
-		9A9F01711E31FA4F00CFE626 /* UIImageView+ZTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZTAdditions.h"; sourceTree = "<group>"; };
-		9A9F01721E31FA4F00CFE626 /* UIImageView+ZTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZTAdditions.m"; sourceTree = "<group>"; };
 		9A9F01741E31FB1E00CFE626 /* ZTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTAdditions.h; sourceTree = "<group>"; };
+		9AF63EAB1E4C683B00242DF8 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		9AF63EAD1E4C68C900242DF8 /* NSString+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZTAddition.h"; sourceTree = "<group>"; };
+		9AF63EAE1E4C68C900242DF8 /* NSString+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZTAddition.m"; sourceTree = "<group>"; };
+		9AF63EB01E4C68C900242DF8 /* UIButton+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZTAddition.h"; sourceTree = "<group>"; };
+		9AF63EB11E4C68C900242DF8 /* UIButton+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZTAddition.m"; sourceTree = "<group>"; };
+		9AF63EB21E4C68C900242DF8 /* UIColor+ZTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZTAdditions.h"; sourceTree = "<group>"; };
+		9AF63EB31E4C68C900242DF8 /* UIColor+ZTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZTAdditions.m"; sourceTree = "<group>"; };
+		9AF63EB41E4C68C900242DF8 /* UIImageView+ZTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZTAdditions.h"; sourceTree = "<group>"; };
+		9AF63EB51E4C68C900242DF8 /* UIImageView+ZTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZTAdditions.m"; sourceTree = "<group>"; };
+		9AF63EB61E4C68C900242DF8 /* UILabel+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZTAddition.h"; sourceTree = "<group>"; };
+		9AF63EB71E4C68C900242DF8 /* UILabel+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZTAddition.m"; sourceTree = "<group>"; };
+		9AF63EB81E4C68C900242DF8 /* UIView+ZTAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZTAddition.h"; sourceTree = "<group>"; };
+		9AF63EB91E4C68C900242DF8 /* UIView+ZTAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZTAddition.m"; sourceTree = "<group>"; };
+		9AF63EC21E4C696400242DF8 /* FileUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileUnit.h; sourceTree = "<group>"; };
+		9AF63EC31E4C696400242DF8 /* FileUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileUnit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,21 +106,40 @@
 		9A9F015E1E31FA2A00CFE626 /* ZTAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				9A9F015F1E31FA2A00CFE626 /* NSString+ZTAddition.h */,
-				9A9F01601E31FA2A00CFE626 /* NSString+ZTAddition.m */,
-				9A9F01711E31FA4F00CFE626 /* UIImageView+ZTAdditions.h */,
-				9A9F01721E31FA4F00CFE626 /* UIImageView+ZTAdditions.m */,
-				9A9F01611E31FA2A00CFE626 /* UIButton+ZTAddition.h */,
-				9A9F01621E31FA2A00CFE626 /* UIButton+ZTAddition.m */,
-				9A9F01631E31FA2A00CFE626 /* UIColor+ZTAdditions.h */,
-				9A9F01641E31FA2A00CFE626 /* UIColor+ZTAdditions.m */,
-				9A9F01671E31FA2A00CFE626 /* UILabel+ZTAddition.h */,
-				9A9F01681E31FA2A00CFE626 /* UILabel+ZTAddition.m */,
-				9A9F01691E31FA2A00CFE626 /* UIView+ZTAddition.h */,
-				9A9F016A1E31FA2A00CFE626 /* UIView+ZTAddition.m */,
+				9AF63EC11E4C690000242DF8 /* Common */,
+				9AF63EAC1E4C68C100242DF8 /* Category */,
 				9A9F01741E31FB1E00CFE626 /* ZTAdditions.h */,
+				9AF63EAB1E4C683B00242DF8 /* Single.h */,
 			);
 			path = ZTAdditions;
+			sourceTree = "<group>";
+		};
+		9AF63EAC1E4C68C100242DF8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9AF63EAD1E4C68C900242DF8 /* NSString+ZTAddition.h */,
+				9AF63EAE1E4C68C900242DF8 /* NSString+ZTAddition.m */,
+				9AF63EB01E4C68C900242DF8 /* UIButton+ZTAddition.h */,
+				9AF63EB11E4C68C900242DF8 /* UIButton+ZTAddition.m */,
+				9AF63EB21E4C68C900242DF8 /* UIColor+ZTAdditions.h */,
+				9AF63EB31E4C68C900242DF8 /* UIColor+ZTAdditions.m */,
+				9AF63EB41E4C68C900242DF8 /* UIImageView+ZTAdditions.h */,
+				9AF63EB51E4C68C900242DF8 /* UIImageView+ZTAdditions.m */,
+				9AF63EB61E4C68C900242DF8 /* UILabel+ZTAddition.h */,
+				9AF63EB71E4C68C900242DF8 /* UILabel+ZTAddition.m */,
+				9AF63EB81E4C68C900242DF8 /* UIView+ZTAddition.h */,
+				9AF63EB91E4C68C900242DF8 /* UIView+ZTAddition.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9AF63EC11E4C690000242DF8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				9AF63EC21E4C696400242DF8 /* FileUnit.h */,
+				9AF63EC31E4C696400242DF8 /* FileUnit.m */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,15 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A9F016C1E31FA2A00CFE626 /* UIButton+ZTAddition.m in Sources */,
-				9A9F01701E31FA2A00CFE626 /* UIView+ZTAddition.m in Sources */,
-				9A9F016F1E31FA2A00CFE626 /* UILabel+ZTAddition.m in Sources */,
-				9A9F016D1E31FA2A00CFE626 /* UIColor+ZTAdditions.m in Sources */,
+				9AF63EBF1E4C68C900242DF8 /* UILabel+ZTAddition.m in Sources */,
+				9AF63EBD1E4C68C900242DF8 /* UIColor+ZTAdditions.m in Sources */,
+				9AF63EC01E4C68C900242DF8 /* UIView+ZTAddition.m in Sources */,
 				9A9F014F1E31FA1C00CFE626 /* ViewController.m in Sources */,
-				9A9F016B1E31FA2A00CFE626 /* NSString+ZTAddition.m in Sources */,
-				9A9F01731E31FA4F00CFE626 /* UIImageView+ZTAdditions.m in Sources */,
+				9AF63EBC1E4C68C900242DF8 /* UIButton+ZTAddition.m in Sources */,
+				9AF63EC41E4C696400242DF8 /* FileUnit.m in Sources */,
 				9A9F014C1E31FA1C00CFE626 /* AppDelegate.m in Sources */,
+				9AF63EBE1E4C68C900242DF8 /* UIImageView+ZTAdditions.m in Sources */,
 				9A9F01491E31FA1C00CFE626 /* main.m in Sources */,
+				9AF63EBB1E4C68C900242DF8 /* NSString+ZTAddition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +377,7 @@
 				9A9F015D1E31FA1C00CFE626 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

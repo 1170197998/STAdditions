@@ -6,6 +6,7 @@
 //  Copyright © 2017年 ShaoFeng. All rights reserved.
 //
 
+#import "Single.h"                  //单例宏
 #import "NSString+ZTAddition.h"
 #import "UIImageView+ZTAdditions.h"
 #import "UIButton+ZTAddition.h"
