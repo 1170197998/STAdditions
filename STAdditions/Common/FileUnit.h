@@ -127,5 +127,4 @@
  */
 + (NSString *)getFileChangeDateWithPath:(NSString *)path;
 
-
 @end
