@@ -242,7 +242,6 @@
     NSDictionary *fileAttributes = [fileManager attributesOfItemAtPath:path error:nil];
     fileOwner = [fileAttributes objectForKey:NSFileOwnerAccountName];
     return fileOwner;
-
 }
 
 + (NSString *)getFileChangeDateWithPath:(NSString *)path

@@ -10,7 +10,6 @@
 
 @interface UIImageView (STAdditions)
 
-
 /**
  快速创建UIImageView(多适用于设置头像)
 
