@@ -64,5 +64,4 @@
  比较两个NsDate对象的时间差
  */
 + (CompareResult *)compareDateDifferenceDate1:(NSDate *)date1 date2:(NSDate *)date2;
-
 @end
